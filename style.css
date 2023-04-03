@@ -67,7 +67,7 @@ body{
     transform: rotate(72deg);
 }
 .container .six{
-    background-color: #795548;
+   background-color: #f44336; 
     transform: rotate(90deg);
 }
 .container .seven{
