@@ -1,29 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Spinning Wheel</title>
-   
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      #spinning-wheel {
-        position: relative;
-        width: 500px;
-        height: 500px;
-        margin: 0 auto;
-        border: 2px solid black;
-        border-radius: 50%;
-      }
-      #spin-button {
-        display: block;
-        margin: 20px auto;
-        font-size: 24px;
-        padding: 10px;
-      }
-    </style>
+    <title>Spinning Wheel</title>
+    <script src="script.js"></script>
   </head>
-    <div id="spinning-wheel"></div>
-    <button id="spin-button" onclick="spinWheel()">Spin</button>
-   <script src="script.js"></script>
+  <body>
+    <canvas id="spinning-wheel"></canvas>
+    <br />
+    <button onclick="spinWheel()">Spin the Wheel</button>
+    <script>
+      createWheel();
+    </script>
   </body>
 </html>
