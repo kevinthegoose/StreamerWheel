@@ -70,7 +70,7 @@ function drawSlice(sliceNumber, sliceCount, sliceSize, ctx, canvasWidth, canvasH
   var angle = sliceNumber * sliceSize;
 
   // Set the color and fill of the slice
-  ctx.fillStyle = "#" + ((1 << 24) * Math.random() | 0).toString(16); // generate random color
+  ctx.fillStyle = "hsl(" + (360 / sliceCount * sliceNumber) + ", 100%, 50%)";
   ctx.beginPath();
   ctx.moveTo(canvasWidth / 2, canvasHeight / 2);
   ctx.arc(canvasWidth / 2, canvasHeight / 2, canvasWidth / 2, angle * Math.PI / 180, (angle + sliceSize) * Math.PI / 180);
