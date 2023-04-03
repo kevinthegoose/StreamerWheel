@@ -40,6 +40,11 @@ body{
     color:#fff;
     left:150px;
 }
+.container div img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
 
 .container .one{
     background-color: #3f51b5;
