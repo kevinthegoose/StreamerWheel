@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spinning Wheel</title>
-    <script src="script.js"></script>
   </head>
   <body>
     <canvas id="spinning-wheel"></canvas>
-    <br />
-    <button onclick="spinWheel()">Spin the Wheel</button>
+
+    <script src="script.js"></script>
     <script>
-      createWheel();
+      // Call the createWheel function when the page loads
+      window.onload = function () {
+        createWheel();
+      };
     </script>
   </body>
 </html>
