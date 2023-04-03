@@ -2,7 +2,7 @@ var canvas = document.getElementById("spinning-wheel");
 var ctx = canvas.getContext("2d");
 
 var sliceCount = 20; // number of slices on the wheel
-var sliceSize = 2 * Math.PI / sliceCount;
+var sliceSize = 18;
 var spinTimeout = null;
 var spinArcStart = 10;
 var spinTimeTotal = 0;
